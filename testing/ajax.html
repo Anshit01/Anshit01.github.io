@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animations with jQuery</title>
+    <script src="jquery-3.5.1.js"></script>
+
+    <style>
+
+        
+    </style>
+
+</head>
+<body></body>
+
+    <script>
+
+        $.get("https://nith-app-greyhats.herokuapp.com/", function(data, status) {
+            alert(status)
+            $("body").html(data)
+        })
+
+    </script>
+
+</body>
+</html>
